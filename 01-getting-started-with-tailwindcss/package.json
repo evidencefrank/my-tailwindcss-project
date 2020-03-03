@@ -1,0 +1,25 @@
+{
+  "name": "my-tailwindcss-project",
+  "version": "1.0.0",
+  "description": "Learning TailwindCSS using video tutorials",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evidencefrank/my-tailwindcss-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evidencefrank/my-tailwindcss-project/issues"
+  },
+  "homepage": "https://github.com/evidencefrank/my-tailwindcss-project#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
